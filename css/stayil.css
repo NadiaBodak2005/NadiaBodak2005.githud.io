@@ -1,0 +1,110 @@
+body{
+    background-color: #eaeaea;
+}
+.wrapper{
+     padding-left: 20px;
+     margin-right: 20px;
+     max-width: 1170px;
+     margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.picture{
+    width: 150px;
+    height: 150px;
+}
+.colortext{
+    color: tomato;
+} 
+.naw{
+    margin-bottom: 0;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 700;
+}
+.naw li a{
+    text-decoration: none;
+    color: #494949;
+}
+.naw li{
+    padding-left: 25px;
+    margin-left: 25px;
+}
+.banner{
+    background-image: url(../picture/koln4.png);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /*height: 300px; */
+}
+.title{
+font-size: 50px;
+text-align: center;
+text-transform: uppercase;
+}
+.desc{
+    color: white;
+font-size: 25px;
+text-align: center;
+font-weight: bold;
+}
+.btn{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 15px 0;
+    text-align: center;
+    max-width: 190px;
+    margin: 5% auto;
+    font-weight: bold;
+
+}
+h2{
+    font-size: 40px;
+    color: #282828;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: #6b6565;
+}
+.footer{
+    background-color: violet;
+    padding: 60px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    display: inline-block;
+}
+.contact a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+}
+.telef{
+    float: left;
+    padding: 0 0 30px 0;
+}
+.mails{
+    float: right;
+    padding: 0 0 30px 0;
+}
+@media (max-width: 1200px){
+    .wrapper{
+        max-width: 800px;
+    }
+}
